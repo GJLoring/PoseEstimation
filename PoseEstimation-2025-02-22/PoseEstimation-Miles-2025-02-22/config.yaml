@@ -1,0 +1,168 @@
+# Project definitions (do not edit)
+Task: PoseEstimation
+scorer: Miles
+date: Feb22
+multianimalproject: false
+identity:
+
+
+# Project path (change when moving around)
+project_path: D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22
+
+
+# Default DeepLabCut engine to use for shuffle creation (either pytorch or tensorflow)
+engine: pytorch
+
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video01.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video02.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video03.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video04.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video05.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video06.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video07.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video08.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video09.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video10.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video11.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video12.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video13.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video14.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video15.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video16.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video17.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video18.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video19.mp4:
+    crop: 0, 2048, 0, 1080
+  D:\DeepLabCut\PoseEstimation-2025-02-22\PoseEstimation-Miles-2025-02-22\videos\Video_00.mp4:
+    crop: 0, 2048, 0, 1080
+bodyparts:
+- Nostril
+- Eye_left
+- Eye_right
+- Poll
+- Withers
+- Lowest_back
+- T18/L1
+- Abdomen
+- Spina_scapulae_left
+- Spina_scapulae_right
+- Tub._scapulae-noidale_left
+- Tub._scapulae-noidale_right
+- Shoulder_joint_left
+- Shoulder_joint_right
+- Elbow_hock_left
+- Elbow_hock_right
+- Elbow_joint_left
+- Elbow_joint_right
+- Os_carpi_accessorium_left
+- Os_carpi_accessorium_right
+- Carpus_left
+- Carpus_right
+- Fetlock_front_left
+- Fetlock_front_right
+- Coronary_band_dorsal_front_left
+- Coronary_band_dorsal_front_right
+- Coronary_band_palmar_front_left
+- Coronary_band_palmar_front_right
+- Hoof_tip_front_left
+- Hoof_tip_front_right
+- Croup_middle
+- T._sacrale_left
+- T._sacrale_right
+- Kink_left
+- Kink_right
+- Tail_root
+- T._coxae_left
+- T._coxae_right
+- Coxofemoral_joint_left
+- Coxofemoral_joint_right
+- t._ischiadicum_left
+- t._ischiadicum_right
+- Stifle_joint_left
+- Stifle_joint_right
+- Tarsus_left
+- Tarsus_right
+- Calcaneus_left
+- Calcaneus_right
+- Fetlock_rear_left
+- Fetlock_rear_right
+- Coronary_band_dorsal_rear_left
+- Coronary_band_dorsal_rear_right
+- Coronary_band_plantar_rear_left
+- Coronary_band_plantar_rear_right
+- Hoof_pad_left
+- Hoof_pad_right
+- Hoof_tip_rear_left
+- Hoof_tip_rear_right
+
+
+# Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 20
+
+
+# Plotting configuration
+skeleton:
+- - bodypart1
+  - bodypart2
+- - objectA
+  - bodypart3
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+detector_snapshotindex: -1
+batch_size: 8
+detector_batch_size: 1
+
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+
+
+# Conversion tables to fine-tune SuperAnimal weights
+SuperAnimalConversionTables:
