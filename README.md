@@ -1,5 +1,7 @@
 "# PoseEstimation" 
 
+Used Anaconda to do the install took several tries, must have git installed and in path before running annaconda.
+
 https://github.com/GJLoring/PoseEstimation
 
 https://deeplabcut.github.io/DeepLabCut/docs/installation.html#how-to-install
